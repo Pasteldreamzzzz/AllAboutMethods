@@ -8,4 +8,13 @@ class Main {
     myMethod("Rosline"); 
     myMethod("Stephanie"); 
   }
-}
+
+  public static void main(String[] args ){
+    
+  }
+  
+  
+  static void myMethod(String name, int grams  ){ 
+    System.out.println("Congrats " + name + " you have " + grams + " number of Valentines candy grams");
+  }
+}  
